@@ -1,6 +1,6 @@
 ---
 title: Team
-description: Team page
+description: 
 featured_image: "/images/hero-hacknight.jpg"
 type: page
 ---

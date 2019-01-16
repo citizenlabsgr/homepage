@@ -1,6 +1,6 @@
 ---
 title: Sponsors
-description: Sponsors page
+description: 
 featured_image: "/images/hero-hacknight.jpg"
 type: page
 ---

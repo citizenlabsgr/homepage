@@ -89,3 +89,10 @@ enableRobotsTXT = true
       name = "Our Team"
       identifier = "team"
       url = "/about/team/"
+
+  [[menu.main]]
+      weight = 4
+      parent = "about"
+      name = "Donate"
+      identifier = "donate"
+      url = "/about/donate/"
