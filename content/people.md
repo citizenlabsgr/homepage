@@ -1,5 +1,6 @@
 ---
 title: "Empowering people to make a difference"
+include_footer: true
 description:
 featured_image: ""
 type: page

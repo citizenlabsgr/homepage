@@ -1,5 +1,6 @@
 ---
 title: "What is Open Data?"
+include_footer: true
 description:
 featured_image: ""
 type: page
