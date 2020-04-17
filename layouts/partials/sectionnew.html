@@ -1,0 +1,26 @@
+<section>
+  <div class="container">
+    <div class="row">
+      {{ range first 3 (where .Site.RegularPages "Type" "post")}}
+      <div class="col-lg-4 small-post-border">
+        <article class="media">
+          {{ if .Params.Image }}
+          <div class="recent-post-thumb mr-3" style="background-image: url('{{ .Params.Image | absURL }}');"></div>
+          {{ end }}
+          <div class="media-body">
+            <div class="mb-3 post-meta">
+              <span>By {{ .Site.Params.Author }}</span>
+              {{ if not .Params.HideDate }}
+              <span class="border-bottom border-primary px-2 mx-1"></span>
+              <span>{{ .PublishDate.Format "02 Jan 2006" }}</span>
+              {{ end }}
+            </div>
+            <a href="{{ .Permalink }}" class="h5 d-block mb-3">{{ .Title | markdownify }}</a>
+            <a href="{{ .Permalink }}" class="btn btn-outline-primary">read more</a>
+          </div>
+        </article>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

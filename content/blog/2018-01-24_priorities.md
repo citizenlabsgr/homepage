@@ -6,6 +6,8 @@ sidebarlogo: fresh-white-alt
 include_footer: true
 tags: [civic tech,citizen labs]
 title: "2018 Opportunities"
+description: "A look back at accomplishments from 2017."
+type : "blog"
 ---
 
 2017 was an exciting year for Citizen Labs. We grew as an organization, spending a great deal of energy in creating a strong foundation that can deliver on our mission.

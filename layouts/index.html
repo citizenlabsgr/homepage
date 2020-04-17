@@ -19,6 +19,14 @@
     {{ partial "section4.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.sectionnew }}
+    {{ partial "sectionnew.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.sectionblog }}
+    {{ partial "sectionblog.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.section5 }}
     {{ partial "section5.html" . }}
     {{ end }}

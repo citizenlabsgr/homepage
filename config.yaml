@@ -121,6 +121,8 @@ params:
       job: Commissioner, City of Grand Rapids
       img: 4
   section5: true
+  sectionnew: true
+  sectionblog: true
   footer:
     # Logo (from /images/logos/___)
     logo: CL_Logo.png
